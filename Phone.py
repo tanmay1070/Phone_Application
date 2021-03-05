@@ -177,7 +177,7 @@ def phonebase():
     b10 = Button(top, text="delete", command=delete)
     b10.pack()
 photo = PhotoImage(file = "book.png")
-contact = photo.subsample(7,7)
+contact = photo.subsample(7,7)    #Just to Adjust the size of Button
 b11=Button(window,image=contact,command=phonebase)
 b11.place(relx = 0.6, rely = 0.1, anchor = N)
 
